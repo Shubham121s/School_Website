@@ -1,0 +1,150 @@
+/* src/components/Home/Home.css */
+
+.home-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .banner {
+    position: relative;
+    background: url('https://source.unsplash.com/1920x600/?education') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    max-width: 80%;
+    z-index: 1;
+  }
+  
+  .banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    font-size: 1.75rem;
+  }
+  
+  .highlights {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .highlights h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .highlight-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .highlight-item {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .highlight-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .highlight-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .highlight-text {
+    padding: 1rem;
+    background: #fff;
+  }
+  
+  .highlight-text h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  
+  .highlight-text p {
+    margin-top: 0.5rem;
+  }
+  
+  .quick-links {
+    padding: 2rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .quick-links h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quick-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .quick-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .quick-links a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+  }
+  /* Add this to your CSS file */
+.events-calendar {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar {
+  width: 100%;
+}
+
+.events-list {
+  margin-top: 1rem;
+}
+
+.events-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}

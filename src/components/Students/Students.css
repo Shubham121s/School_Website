@@ -1,0 +1,40 @@
+/* src/components/Students/Students.css */
+
+.students-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  .activities-section, .achievements-section, .student-council-section {
+    margin-bottom: 2rem;
+  }
+  
+  .activities-section h2, .achievements-section h2, .student-council-section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .activities-section ul, .achievements-section ul, .student-council-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .activities-section li, .achievements-section li, .student-council-section li {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .activities-section li:nth-child(odd), .achievements-section li:nth-child(odd), .student-council-section li:nth-child(odd) {
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .activities-section li:hover, .achievements-section li:hover, .student-council-section li:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+  }
+  
